@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Medical Delivery Landing Page</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/46f2a766b1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!-- Nav bar -->
+  <nav id="nav-bar">
+    <div id="logo">
+      <img src="images/logo.png" alt="Medical Delivery Logo">
+      <span id="logo-text">Medical Delivery</span>
+    </div>
+    <ul id="nav-links">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Contact</a></li>
+      <li>
+        <a href="#">Sign Up</a>
+        <ul id="dropdown">
+          <li><a href="#">Sign In</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Cart</a></li>
+    </ul>
+    <div id="search-bar">
+      <input type="text" placeholder="Search">
+      <button type="submit">Search</button>
+    </div>
+  </nav>
+    
+  <!-- Hero Section -->
+  <section id="hero-section">
+    <div id="hero-content">
+      <div id="hero-text">
+        <h1 id="hero-headline">Fast and Reliable Medical Delivery at Your Doorstep</h1>
+        <h3 id="hero-subheadline">Get your medical supplies delivered quickly and safely</h3>
+        <button id="shop-button" onclick="window.location.href='items.html'">Shop Now</button> 
+      </div>
+      <div id="hero-image">
+        <img src="images/shipping-truck.png" alt="Hero Image">
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- Value Proposition -->
+  <section id="value-prop-section">
+    <h2 id="value-prop-heading">Why Choose Us?</h2>
+    <ul id="value-prop-list">
+      <li>
+        <img src="images/fast.png" alt="Delivery Image">
+        Fast and efficient delivery of essential medical supplies
+      </li>
+      <li>
+        <img src="images/reliable.png" alt="Service Image">
+        Trusted and reliable service with a track record of customer satisfaction
+      </li>
+      <li>
+        <img src="images/delivery-man.png" alt="Personnel Image">
+        Courteous and professional delivery personnel
+      </li>
+      <li>
+        <img src="images/tracking.png" alt="Ordering Image">
+        Convenient online ordering and tracking system
+      </li>
+    </ul>
+  </section>
+  
+
+  <!-- Call-to-Action (CTA) -->
+  <section id="cta-section">
+    <a id="cta-button" href="items.html">View Drugs</a>
+    <p id="cta-supporting-text">Experience hassle-free medical delivery today!</p>
+  </section>
+
+  <!-- Features and Benefits -->
+  <section id="features-section">
+    <div class="container">
+      <div class="left-section">
+        <img src="images/delivery.jpg" alt="Your Photo">
+      </div>
+      <div class="right-section">
+        <h2 id="features-heading">Our Services</h2>
+        <ul id="features-list"> <!-- Changed from <li> to <ul> -->
+          <li><i class="fas fa-truck-fast"></i> Express delivery of medications, medical equipment, and supplies</li>
+          <li><i class="fa-solid fa-truck"></i> Same-day or next-day delivery options available</li>
+          <li><i class="fas fa-map-location"></i> GPS tracking for real-time updates on delivery status</li>
+          <li><i class="fas fa-file-shield"></i> Secure and tamper-proof packaging to ensure product integrity</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Testimonials or Social Proof -->
+  <section id="testimonials-section">
+    <h2 id="testimonials-heading">What Our Customers Say</h2>
+    <div id="testimonials">
+      <div class="testimonial">
+        <img src="images/cus1.jpg" alt="Customer Photo 1" class="customer-photo">
+        <blockquote>
+          <p>Their fast delivery saved the day when I ran out of essential medications.</p>
+          <cite>- Jane S.</cite>
+        </blockquote>
+      </div>
+      <div class="testimonial">
+        <img src="images/cus2.jpg" alt="Customer Photo 2" class="customer-photo">
+        <blockquote>
+          <p>The delivery personnel were professional and went above and beyond to accommodate my needs.</p>
+          <cite>- Monica A.</cite>
+        </blockquote>
+      </div>
+      <div class="testimonial">
+        <img src="images/cus3.jpg" alt="Customer Photo 3" class="customer-photo">
+        <blockquote>
+          <p>I highly recommend their service for their reliability and excellent customer support.</p>
+          <cite>- Sarah M.</cite>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+  
+ 
+
+  <!-- Additional Details -->
+  <section id="additional-details-section">
+    <h2 id="additional-details-heading">Learn More</h2>
+    <ul id="additional-details-list">
+      <li>
+        <span class="icon"><i class="fa-regular fa-credit-card"></i></span>
+        <span class="text">Accepted payment methods</span>
+        <button class="button">View Payment Methods</button>
+      </li>
+      <li>
+        <span class="icon"><i class="fa-solid fa-truck"></i></span>
+        <span class="text">Delivery coverage area</span>
+        <button class="button">View Areas Covered</button>
+      </li>
+      <li>
+        <span class="icon"><i class="fa-solid fa-receipt"></i></span>
+        <span class="text">Returns and refunds policy</span>
+        <button class="button">View Policies</button>
+      </li>
+      <li>
+        <span class="icon"><i class="fa-solid fa-suitcase-medical"></i></span>
+        <span class="text">Insurance and liability information</span>
+        <button class="button">View Liability</button>
+      </li>
+    </ul>
+  </section>
+  
+  
+  <!-- Contact Information or Support -->
+  <section id="contact-section">
+    <div class="contact-container">
+      <div class="left-side">
+        <h2 id="contact-heading">Contact Us</h2>
+        <p id="contact-phone"><i class="fa-solid fa-phone"></i> Phone: +1-123-456-7890</p>
+        <p id="contact-email"><i class="fa-regular fa-envelope"></i> Email: info@medicaldelivery.com</p>
+        <p id="contact-address"><i class="fa-solid fa-location-dot"></i></i> Address: 123 @Gdrive</p>
+      </div>   
+      <div class="right-side">
+        <form id="contact-form">
+          <p><label for="name">Name</label></p>
+          <input type="text" id="name" name="name" required>
+          <p><label for="email">Email</label></p>
+          <input type="email" id="email" name="email" required>
+          <p><label for="message">Message</label></p>
+          <textarea id="message" name="message" required></textarea>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- Footer -->
+  <footer>
+    <nav id="footer-nav">
+      <ul id="footer-links">
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">FAQ</a></li>
+        <li><a href="#">Terms of Service</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+      </ul>
+    </nav>
+    <p id="copyright">&#169; 2023 Medical Delivery Services. All rights reserved.</p>
+  </footer>
+</body>
+</html>
